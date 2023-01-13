@@ -1,11 +1,8 @@
 package main
 
 import (
-	"encoding/json"
 	"log"
 	"net/http"
-
-	"github.com/gorilla/mux"
 )
 
 const baseURL = "0.0.0.0:8080"
@@ -22,7 +19,7 @@ var Todos = []*Todo{{
 	Name: "Dua",
 }}
 
-func main() {
+/* func main() {
 
 	r := mux.NewRouter()
 	r.HandleFunc("/todos", Create).Methods(http.MethodPost)
@@ -60,9 +57,8 @@ func Delete(w http.ResponseWriter, r *http.Request) {
 
 	// Todos = delete(, &t)
 	w.Write([]byte("Success delete todo " + t.Name))
-}
+} */
 
-/*
 func main() {
 
 	http.HandleFunc("/helloworld", PrintHello)
@@ -83,6 +79,5 @@ func PrintHello(w http.ResponseWriter, r *http.Request) {
 		if _, err := w.Write([]byte("Hello World!")); err != nil {
 			log.Println("Error : ", err)
 		}
-	/
+	*/
 }
-*/
