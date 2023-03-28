@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/ibrahimker/golang-intermediate/session-4/service"
+	"ldap_auth/service"
 )
 
 type RouterHandler struct {

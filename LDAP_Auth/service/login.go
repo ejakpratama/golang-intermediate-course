@@ -3,7 +3,8 @@ package service
 import (
 	"errors"
 
-	"github.com/ibrahimker/golang-intermediate/session-4/repository"
+	"ldap_auth/repository"
+
 	log "github.com/sirupsen/logrus"
 )
 

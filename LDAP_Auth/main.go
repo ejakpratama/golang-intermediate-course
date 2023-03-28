@@ -4,11 +4,13 @@ import (
 	"fmt"
 	"net/http"
 
+	"ldap_auth/config"
+	"ldap_auth/repository"
+	"ldap_auth/router"
+	"ldap_auth/service"
+
 	"github.com/go-ldap/ldap"
-	"github.com/ibrahimker/golang-intermediate/session-4/config"
-	"github.com/ibrahimker/golang-intermediate/session-4/repository"
-	"github.com/ibrahimker/golang-intermediate/session-4/router"
-	"github.com/ibrahimker/golang-intermediate/session-4/service"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/gorilla/mux"
 )

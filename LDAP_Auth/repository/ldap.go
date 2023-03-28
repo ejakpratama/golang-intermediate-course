@@ -4,7 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ibrahimker/golang-intermediate/session-4/config"
+	"ldap_auth/config"
+
 	log "github.com/sirupsen/logrus"
 
 	"github.com/go-ldap/ldap"
